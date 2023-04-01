@@ -40,7 +40,7 @@ Console.WriteLine("max = " + max + " и " + "min = " + min);
 
 */
 
-int; max = 0;
+int max = 0;
 
 Console.Write("Введите первое число: ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
