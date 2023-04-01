@@ -4,7 +4,7 @@
 a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
-
+*/
 
 int max = 0;
 int min = 0;
@@ -26,7 +26,6 @@ else
     min = firstNumber;
 }
 Console.WriteLine("max = " + max + " и " + "min = " + min);
-*/
 
 
 
@@ -65,3 +64,29 @@ if(thirdNumber > max)
 }
 
 Console.WriteLine("max = " + max);
+
+
+
+/*
+Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+4 -> да
+-3 -> нет
+7 -> нет
+*/
+
+
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int remDiv = number % 2;
+
+if(remDiv == 0)
+{
+    Console.WriteLine("Да");
+}
+else
+{
+    Console.WriteLine("Нет");
+}
+
